@@ -24,15 +24,20 @@ pip install -r requirements.txt
 
 ## Tasks
 
-| Task | Description |
-|------|-------------|
+| Task   | Description                                                               |
+| ------ | ------------------------------------------------------------------------- |
 | Task 1 | EDA — descriptive stats, topic modeling, time-series publication analysis |
-| Task 2 | Technical indicators — SMA, EMA, RSI, MACD using TA-Lib & PyNance |
-| Task 3 | Correlation — news sentiment vs. daily stock returns (Pearson) |
+| Task 2 | Technical indicators — SMA, EMA, RSI, MACD using TA-Lib & PyNance         |
+| Task 3 | Correlation — news sentiment vs. daily stock returns (Pearson)            |
+
+## Final Report
+
+A final submission-ready report is available in `final_report.md`.
 
 ## Data
 
 Place raw data files under `data/raw/`:
+
 - `raw_analyst_ratings.csv` — financial news headlines dataset
 - `AAPL_historical.csv`, `AMZN_historical.csv`, etc. — stock price CSVs
 
